@@ -52,9 +52,9 @@ void main() {
   print(
       "Brand : ${car2.getBrand()}\nModel : ${car2.getModel()}\nYear : ${car2.getYear()}\nDriven : ${car2.getMilesDriven()} miles\nAge : ${car2.getAge()} year(s)\n");
 
-  print("*" * 5 + "Car 2" + "*" * 5);
+  print("*" * 5 + "Car 3" + "*" * 5);
   print(
       "Brand : ${car3.getBrand()}\nModel : ${car3.getModel()}\nYear : ${car3.getYear()}\nDriven : ${car3.getMilesDriven()} miles\nAge : ${car3.getAge()} year(s)\n");
-  
+
   print("Total number of cars created : ${Car.numberOfCars}");
 }
